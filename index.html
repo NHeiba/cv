@@ -449,12 +449,11 @@
   <script>
     AOS.init();
   </script>
-
 <script>
   var MAX_PARTICLES = 1000,
-	RADIUS = 100,
-	MAX_LINES = 5,
-	MAX_LIFE_SPAN = 1600,
+	RADIUS = 500,
+	MAX_LINES = 7,
+	MAX_LIFE_SPAN = 1000,
 	MIN_DENSITY = 15,
 	OFFSET_DENSITY = 15,
 	_context,
@@ -487,7 +486,7 @@ function createInitialParticles() {
 
 	var x;
 
-	for (x = 50; x < _canvasWidth - 50; x += 10) {
+	for (x = 50; x < _canvasWidth ; x += 10) {
 
 		_particles.push(new Particle(x - _canvasHalfWidth, (Math.random() * 100)));
 	}
