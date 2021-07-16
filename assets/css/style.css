@@ -1,3 +1,9 @@
+/**
+* Template Name: Personal - v2.5.1
+* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
 /*--------------------------------------------------------------
 # General
@@ -57,7 +63,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .container{
-  background: rgba(0, 0, 0, 0.71);
+  background: rgba(0, 0, 0, 0.80);
+  padding: 20px;
+}
+
+#contact .container{
+  background: rgba(0, 0, 0, 0.91);
   padding: 20px;
 }
 
@@ -343,7 +354,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.8);
   padding: 30px;
 }
 
@@ -665,6 +676,12 @@ font-family: 'Montserrat', sans-serif;
   border: 2px solid #18d26e;
 }
 
+.resume p {
+  -webkit-text-decoration-color: #4ceb95 !important;
+  text-decoration-color: #4ceb95 !important;
+  text-decoration-thickness: 1px !important;
+
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
